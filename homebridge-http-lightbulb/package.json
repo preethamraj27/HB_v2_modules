@@ -1,0 +1,54 @@
+{
+  "_from": "homebridge-http-lightbulb@latest",
+  "_id": "homebridge-http-lightbulb@1.1.13",
+  "_inBundle": false,
+  "_integrity": "sha512-hQqblBZ+Ewa0s0unhDGTwwdBmczcz0wA9WaZzgpQNEe82fxgl2cAGITqsixUFs1Xl77Kc+8wWYTOGSaZru0DGQ==",
+  "_location": "/homebridge-http-lightbulb",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-http-lightbulb@latest",
+    "name": "homebridge-http-lightbulb",
+    "escapedName": "homebridge-http-lightbulb",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-http-lightbulb/-/homebridge-http-lightbulb-1.1.13.tgz",
+  "_shasum": "68ff15731244e4cef3d563f7f44ce2e52a0ced5b",
+  "_spec": "homebridge-http-lightbulb@latest",
+  "_where": "/usr/local/lib",
+  "bugs": {
+    "url": "https://github.com/Supereg/homebridge-http-lightbulb/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "homebridge-http-base": "~2.1.8"
+  },
+  "deprecated": false,
+  "description": "Http lightbulb for Homebridge",
+  "devDependencies": {
+    "homebridge": "^1.0.4"
+  },
+  "engines": {
+    "homebridge": ">=0.4.8",
+    "node": ">=10.17.0"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "ISC",
+  "name": "homebridge-http-lightbulb",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/Supereg/homebridge-http-lightbulb.git"
+  },
+  "scripts": {
+    "test": "echo no test specified"
+  },
+  "version": "1.1.13"
+}

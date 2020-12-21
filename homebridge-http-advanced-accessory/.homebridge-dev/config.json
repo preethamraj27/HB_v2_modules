@@ -1,0 +1,104 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:3A",
+        "port": 51826,
+        "pin": "031-31-031"
+    },
+    
+    "description": "This is an example configuration file to help in testing.",
+
+    "accessories": [
+        {
+            "accessory": "HttpAdvancedAccessory",
+            "service": "ContactSensor",
+            "name": "Contact Sensor",
+            "debug" : true,
+            "urls":{
+                "getContactSensorState": {
+                    "url" : "http://urlecho.appspot.com/echo?status=200&Content-Type=text%2Fhtml&body=ALARM",
+                    "mappers" : [
+                        {
+                            "type": "eval",
+                            "parameters": {
+                                "expression": "value === \"ALARM\" ? 1 : 0"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "accessory": "HttpAdvancedAccessory",
+            "service": "Switch",
+            "name": "Switch",
+            "debug" : true,
+            "setterDelay": 5000,
+            "urls":{
+                "getOn": {
+                    "url" : "http://urlecho.appspot.com/echo?status=200&Content-Type=text%2Fhtml&body={\"value\":1}",
+                    "mappers" : [
+                        {
+                            "type": "jpath",
+                            "parameters": {
+                                "jpath": "$.value"
+                            }
+                        }
+                    ]
+                },
+                "setOn":{
+                    "url" : "http://111urlecho.appspot.com/echo?status=200&Content-Type=text%2Fhtml&body={\"value\":${value}"
+                }
+            }
+        },
+        {
+            "accessory": "HttpAdvancedAccessory",
+            "service": "WindowCovering",
+            "name": "Kitchen Blinds",
+            "debug": true,
+            "setterDelay": 5000,
+            "forceRefreshDelay": 10,
+            "polling": true,
+            "optionCharacteristic": [],
+            "urls": {
+                "getCurrentPosition": {
+                    "url": "http://urlecho.appspot.com/echo?status=200&Content-Type=text%2Fhtml&body={\"value\":1}",
+                    "httpMethod": "GET",
+                    "mappers": [
+                        {
+                            "type": "jpath",
+                            "parameters": {
+                                "jpath": "$.value"
+                            }
+                        }
+                    ]
+                },
+                "getTargetPosition": {
+                    "url": "http://urlecho.appspot.com/echo?status=200&Content-Type=text%2Fhtml&body={\"value\":10}",
+                    "httpMethod": "GET",
+                    "mappers": [
+                        {
+                            "type": "jpath",
+                            "parameters": {
+                                "jpath": "$.value"
+                            }
+                        }
+                    ]
+                },
+                "setTargetPosition": {
+                    "url": "http://urlecho.appspot.com/echo?status=200&Content-Type=text%2Fhtml&body={\"value\":{value}}",
+                    "httpMethod": "GET",
+                    "mappers": [
+                        {
+                            "type": "jpath",
+                            "parameters": {
+                                "jpath": "$.value"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "platforms": []
+}

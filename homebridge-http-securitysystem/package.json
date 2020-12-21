@@ -1,0 +1,66 @@
+{
+  "_from": "homebridge-http-securitysystem@latest",
+  "_id": "homebridge-http-securitysystem@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-9fF5VcdPGAmfhpmbPwDw+VlBhE/u4aZmnT8xEVRzmRYbAIuADfHPjTJGF/Vto36nN3dOb0dWl9rWwxwwaVmINg==",
+  "_location": "/homebridge-http-securitysystem",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-http-securitysystem@latest",
+    "name": "homebridge-http-securitysystem",
+    "escapedName": "homebridge-http-securitysystem",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-http-securitysystem/-/homebridge-http-securitysystem-1.0.8.tgz",
+  "_shasum": "9e49a53aed0e1b2bbdf92438a056f7640fd7ea8e",
+  "_spec": "homebridge-http-securitysystem@latest",
+  "_where": "/usr/local/lib",
+  "author": {
+    "name": "Marcell Toth"
+  },
+  "bugs": {
+    "url": "https://github.com/codetwice/homebridge-http-securitysystem/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {}
+  ],
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "polling-to-event": "^2.0.2",
+    "request": "^2.65.0",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.24"
+  },
+  "deprecated": false,
+  "description": "HTTP based SecuritySystem plugin for homebridge: https://github.com/nfarina/homebridge, with readable state",
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "homepage": "https://github.com/codetwice/homebridge-http-securitysystem#readme",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "security-system"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "index.js",
+  "name": "homebridge-http-securitysystem",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codetwice/homebridge-http-securitysystem.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.8"
+}

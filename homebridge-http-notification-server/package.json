@@ -1,0 +1,51 @@
+{
+  "_from": "homebridge-http-notification-server@latest",
+  "_id": "homebridge-http-notification-server@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0mBv2gjLnWClWi5Ej9KpJ3SMfUEZgR/OTao9kIJVapzVxXZNCUyx9kSnMLBBtAs2KNjHSKjZcsQqHICCAWVvpA==",
+  "_location": "/homebridge-http-notification-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-http-notification-server@latest",
+    "name": "homebridge-http-notification-server",
+    "escapedName": "homebridge-http-notification-server",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-http-notification-server/-/homebridge-http-notification-server-2.0.0.tgz",
+  "_shasum": "511e2f483b96554001275bf62900656a96ce09a5",
+  "_spec": "homebridge-http-notification-server@latest",
+  "_where": "/usr/local/lib",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An http/https server inside Homebridge to receive notifications from external programs",
+  "devDependencies": {
+    "homebridge": "^1.0.4",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "homebridge": ">=0.4.53",
+    "node": ">=4.3.2"
+  },
+  "homepage": "https://github.com/Supereg/homebridge-http-notification-server#readme",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "MIT",
+  "main": "notification-server.js",
+  "name": "homebridge-http-notification-server",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Supereg/homebridge-http-notification-server.git"
+  },
+  "scripts": {
+    "test": "echo 'no tests set up'"
+  },
+  "version": "2.0.0"
+}

@@ -1,0 +1,63 @@
+{
+  "_from": "homebridge-http-advanced-accessory@latest",
+  "_id": "homebridge-http-advanced-accessory@1.1.22",
+  "_inBundle": false,
+  "_integrity": "sha512-ijGvtC8ZTazvgQB/2D8Q/UyKD4t85o+ewaJaXHIYnWpmTwa7Yvso7KdZ7PXhA8H8B1BDL2rC3Ia2o9U8FDtFog==",
+  "_location": "/homebridge-http-advanced-accessory",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-http-advanced-accessory@latest",
+    "name": "homebridge-http-advanced-accessory",
+    "escapedName": "homebridge-http-advanced-accessory",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-http-advanced-accessory/-/homebridge-http-advanced-accessory-1.1.22.tgz",
+  "_shasum": "d5cd67ca65202b9f9c6f0c80af6fb53cc766a112",
+  "_spec": "homebridge-http-advanced-accessory@latest",
+  "_where": "/usr/local/lib",
+  "author": {
+    "name": "tasict"
+  },
+  "bugs": {
+    "url": "https://github.com/staromeste/homebridge-http-advanced-accessory/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "JSONPath": "^0.11.2",
+    "hap-nodejs": ">=0.4.25",
+    "polling-to-event": ">=2.0.2",
+    "request": "^2.65.0",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.24"
+  },
+  "deprecated": false,
+  "description": "http plugin for homebridge: https://github.com/nfarina/homebridge",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "engines": {
+    "homebridge": ">=0.4.0",
+    "node": ">=0.12.0"
+  },
+  "homepage": "https://github.com/staromeste/homebridge-http-advanced-accessory#readme",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "ISC",
+  "name": "homebridge-http-advanced-accessory",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staromeste/homebridge-http-advanced-accessory.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.1.22"
+}

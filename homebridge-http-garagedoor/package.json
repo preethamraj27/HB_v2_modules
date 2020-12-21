@@ -1,0 +1,68 @@
+{
+  "_from": "homebridge-http-garagedoor@latest",
+  "_id": "homebridge-http-garagedoor@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-7s0kQKgQK6qfK/YcE9anvVh4Au1z6IqHFIDoQ96jA61545rq4EPfpjXWx2BoZxR4GfIz6eej88XaADwupHu12w==",
+  "_location": "/homebridge-http-garagedoor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-http-garagedoor@latest",
+    "name": "homebridge-http-garagedoor",
+    "escapedName": "homebridge-http-garagedoor",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-http-garagedoor/-/homebridge-http-garagedoor-1.0.0.tgz",
+  "_shasum": "132cff21e1de287e0d1efb9113a390a1c54f9838",
+  "_spec": "homebridge-http-garagedoor@latest",
+  "_where": "/usr/local/lib",
+  "author": {
+    "name": "Matthias Guse"
+  },
+  "bugs": {
+    "url": "https://github.com/mach1009/homebridge-http-garagedoor/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Marcell Toth"
+    }
+  ],
+  "dependencies": {
+    "homebridge-http-base": "^2.1.10",
+    "polling-to-event": "^2.0.2",
+    "request": "^2.65.0",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.24"
+  },
+  "deprecated": false,
+  "description": "HTTP based GarageDoorOpener plugin for homebridge: https://github.com/nfarina/homebridge, with readable state",
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "homepage": "https://github.com/mach1009/homebridge-http-garagedoor#readme",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "garagedoor"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "index.js",
+  "name": "homebridge-http-garagedoor",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mach1009/homebridge-http-garagedoor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
